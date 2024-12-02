@@ -2,7 +2,7 @@ This is a starter template for the [Contentful Studio](https://github.com/conten
 
 ## Getting Started
 
-The first thing you'll need is your [Contentful CMA Token](https://app.contentful.com/account/profile/cma_tokens), and access to the [Studio Hackathon Organization](https://app.contentful.com/account/organizations/1jtZ8D4corGeQgsNmtaFM4).
+The first thing you'll need is your [Contentful CMA Token](https://app.contentful.com/account/profile/cma_tokens)
 
 ### Run the Setup
 1. Clone the repository
