@@ -13,6 +13,7 @@ export const HeadlineComponentDefinition: ComponentDefinition = {
   builtInStyles: [
     "cfBorder",
     "cfLetterSpacing",
+    "cfHeight",
   ],
   variables: {
     cfFontSize: {
@@ -48,12 +49,6 @@ export const HeadlineComponentDefinition: ComponentDefinition = {
     cfWidth: {
       type: "Text",
       displayName: "Width",
-      defaultValue: "500px",
-      group: "style",
-    },
-    cfHeight: {
-      type: "Text",
-      displayName: "Height",
       defaultValue: "500px",
       group: "style",
     },
