@@ -9,10 +9,6 @@ import {
   ExternalVideoComponent,
   ExternalVideoDefinition,
 } from "@studio/ExternalVideo";
-import {
-  HeadlineComponent,
-  HeadlineComponentDefinition,
-} from "@studio/HeadlineComponent";
 
 defineComponents([
   {
@@ -26,15 +22,8 @@ defineComponents([
     component: ExternalVideoComponent,
     definition: ExternalVideoDefinition,
   },
-  {
-    component: HeadlineComponent,
-    definition: HeadlineComponentDefinition,
-    options: {
-      wrapComponent: false,
-    },
-  },
   /*
-   * After a new folder is created in '/_components' you need to register it below in a JSON format
+   * After a new folder is created in '/_components' you need to register it above in a JSON format
    */
 ]);
 defineBreakpoints([
